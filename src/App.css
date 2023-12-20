@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+/*------------------------------------------------SLIDER-----------------------------------------*/
+/* #prev{
+  width: 50px;
+  height: 50px; 
+  font-size: 10px; 
+  background-color: gray;
+  position: absolute; 
+  top: 45%;
+  left: 1%; 
+  border-radius: 50%;
+}
+#prev:hover{
+  background-color: red;
+}
+#next{
+  width: 50px;
+  height: 50px;
+  font-size: 10px;
+  background-color: gray;
+  position: absolute;
+  top: 45%;
+  right: 1%;
+  border-radius: 50%;
+}
+#next:hover{
+  background-color: red;
+} */
+
+/* -----------------------------------AERO CAR STORE--------------------------------- */
+.fontf{
+  font-family: 'Oswald', sans-serif;
+}
+.para{
+  font-size: 26px;
+}
+.textTwo{
+  font-weight: bold;
+  margin-top: -22px;
+}
+.colr{
+  font-weight: bold;
+}
+
+.clor{
+  color: gray;
+}
+.three{
+  width: max-content;
+  overflow: hidden;
+}
+.minus{
+  margin-top: -20px;
+}
+/* -------------------------------------------Feature----------------------------------- */
+.hovr{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.showhovr{
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  text-align: center;
+}
+@keyframes moveup {
+  0%{
+    top: 40%;
+    opacity: 0;
+  }
+  100%{
+    top: 50%;
+    opacity: 1;
+  }
+}
+.hovr:hover .showhovr{
+  animation: moveup 1s linear 1;
+}
+/* ----------------------------------------------PROD CARDS----------------------------------- */
+.star-color{
+  color: yellow;
+  font-size: 10px;
+}
+.review{
+  font-size: 10px;
+  margin-top: -2px;
+}
+/* -------------------------------------------------------------------------------------------- */
+.img{
+  width: 80px;
+}
+.pos{
+  top: 0;
+}
+/* ------------------------------------------------FOOTER---------------------------------------- */
+.bgimg{
+  background-image: url(https://cdn.shopify.com/s/files/1/3012/8606/files/bkg_footer_c0f71867-38e3-492b-995f-7d0269b97db1.jpg?v=1625767911);
+}
+.list{
+  list-style: none;
+}
+/* ---------- */
+.tdecor{
+  text-decoration: none;
+  color: black;
+}
+/* slidertwo */
+.overlay{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* page 6 */
+.layer{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.fontc{
+  font-family: cursive;
+}
+
+.showhovrsix{
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50% , -50%);
+}
+.hovr:hover .showhovrsix{
+  animation: moveup 1s linear 1;
+}
